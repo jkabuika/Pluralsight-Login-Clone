@@ -30,3 +30,13 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
 }
 
+/* SIGN IN */ 
+
+#signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
