@@ -41,7 +41,15 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1rem;
 }
 
-#signin form {
+.form {
     width: 80%;
     padding-bottom: 3rem;
+}
+
+.logo {
+    margin-bottom: 8vh;
+}
+
+.logo img {
+    width: 300px;
 }
