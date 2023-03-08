@@ -105,10 +105,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.7rem 1rem;
     height: 2.7rem;
     display: block;
-    border: 0;
+    border: 1px solid;
     border-radius: 2px;
     font-weight: 600;
-    background-color: #f96816;
+    background-color: none;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -117,11 +117,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #signin .secondary-btn {
-    width: 100%;
+    width: 35%;
 }
 
 .secondary-btn:hover {
     border-color: #ff7b39;
+    color: #ff7b39;
 }
 
 /* Media Queries */
