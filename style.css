@@ -76,6 +76,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.3rem;
 }
 
+#signin .secondary-btn, 
+.or,
+.links {
+    width: 60%;
+}
+
+#signin .links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#signin .or {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+
 /* Button */
 .primary-btn {
     padding: 0.7rem 1rem;
@@ -117,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #signin .secondary-btn {
-    width: 35%;
+    width: 60%;
 }
 
 .secondary-btn:hover {
