@@ -71,3 +71,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem 1rem;
     line-height: 1.3rem;
 }
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    #left {
+        flex: 4
+    }
+    #right {
+        flex: 6;
+    }
+}
