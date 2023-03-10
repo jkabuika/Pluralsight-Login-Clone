@@ -112,8 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Showcase */
 #showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover;
-    
+    height: 100vh;
 }
 
 
