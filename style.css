@@ -111,7 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Showcase */
-
+#showcase {
+    background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover;
+    
+}
 
 
 /* Footer */
