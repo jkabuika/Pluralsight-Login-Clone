@@ -213,8 +213,21 @@ h6 {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
     #right {
     display: none;
-      }
+    }
+
+    #left {
+        justify-content: start;
+        margin-top: 2vh;
+    }
+
+    #signin .logo {
+        margin-bottom: 2vh;
+    }
     
     }
